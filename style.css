@@ -1,0 +1,36 @@
+.game-container{
+    width: 80%;
+    height: 600px;
+    margin-left: 10%;
+    background-color: black;
+    overflow: hidden;
+}
+
+.start-button {
+    text-align: center;
+    font-size: 2em;
+    color:white;
+    background-color:purple;
+}
+.shoot {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.hide {
+    display: none;
+}
+
+.shooter {
+    position: absolute;
+    left:45%;
+    bottom:47%;
+    background-color:darkorange;
+    width: 100px;
+    height: 25px;
+}
